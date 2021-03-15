@@ -28,6 +28,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
+		<dependency>
+		    <groupId>org.apache.kafka</groupId>
+		    <artifactId>kafka-clients</artifactId>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-simple</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -42,5 +55,8 @@
 	<modules>
 		<module>servico-cobranca</module>
 		<module>servico-negativacao</module>
+		<module>servico-renegociacao</module>
+		<module>servico-acordo</module>
+		<module>front-end</module>
 	</modules>
 </project>

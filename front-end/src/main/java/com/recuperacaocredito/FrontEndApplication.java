@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class CobrancaApplication {
+public class FrontEndApplication {
 
 	@RequestMapping("/")
 	public String home() {
@@ -15,7 +15,7 @@ public class CobrancaApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(CobrancaApplication.class, args);
+		SpringApplication.run(FrontEndApplication.class, args);
 	}
 
 }
